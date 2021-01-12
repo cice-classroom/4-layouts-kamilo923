@@ -1,0 +1,32 @@
+:root {
+  /*Main colors*/
+
+  --background: var(--white-bone);
+  --foreground: var(--darkest);
+
+  --main-color: rgb(0, 164, 230);
+  --main-color-dark: rgb(00, 88, 122);
+  --snow: rgb(255, 255, 255);
+  --white-bone: rgb(240, 240, 240);
+  --medium-gray: rgb(204, 205, 205);
+  --contrast: rgb(231, 231, 222);
+  --darkest: rgb(0, 19, 26);
+
+  --header: var(--main-color-dark);
+
+  /* Fonts */
+  --base-font: 'Open Sans', sans-serif;
+  --header-font: 'Kufam', coursive;
+
+  /* Layout size */
+  --full-screen: 1;
+  --wide-screen: 6;
+  --single-column: 1;
+
+  /* z-index */
+  --upper-layout: 10;
+
+  /* Image size */
+  --tiny-size: 150px;
+  --medium-size: 200px;
+}
