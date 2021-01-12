@@ -70,6 +70,12 @@ a:hover {
   padding: 0;
 }
 
+#main-block {
+  background-color: white;
+  text-align: center;
+  padding: 48px 0;
+}
+
 /*Styles for nav-bar and main*/
 
 #nav-bar,
