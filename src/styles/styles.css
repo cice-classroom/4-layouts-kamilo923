@@ -175,3 +175,35 @@ a:hover {
 #last-block {
   padding: 48px 0;
 }
+
+#middle-block {
+  background-color: #e7e7de;
+}
+
+#middle-block > h2 {
+  text-align: center;
+}
+
+.middle-content > article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.middle-content > article .box {
+  width: 100%;
+  max-width: var(--medium-size);
+  background-size: cover;
+  background-position: center;
+}
+
+.middle-content > article div:nth-child(2) {
+  padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .middle-content > article:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+}
