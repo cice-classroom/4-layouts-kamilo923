@@ -2,6 +2,8 @@
 @import url(slider.css);
 @import url(buttons.css);
 @import url(rules.css);
+@import url(pictures.css);
+
 /*General Styles*/
 * {
   box-sizing: border-box;
@@ -109,7 +111,6 @@ a:hover {
 }
 
 /*Header Style*/
-
 #nav-bar {
   display: flex;
   align-items: center;
@@ -164,4 +165,13 @@ a:hover {
 
 .login:hover {
   color: var(--contrast);
+}
+
+/* Blocks Styles */
+#main-block,
+#second-block,
+#middle-block,
+#fourth-section,
+#last-block {
+  padding: 48px 0;
 }
