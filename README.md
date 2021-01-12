@@ -9,3 +9,7 @@ You can replace the rectangles and squares with images and the text with anythin
 Extra:
 
 Create also the responsive version of the site.
+
+HTML Version:
+
+https://cice-classroom.github.io/4-layouts-kamilo923/
