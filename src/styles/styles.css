@@ -207,3 +207,38 @@ a:hover {
     text-align: right;
   }
 }
+/*Slider Gallery in fourth section*/
+.slider-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider-gallery > article {
+  width: 100%;
+  padding: 16px 8px;
+}
+
+.slider-gallery > article:last-child {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .slider-gallery {
+    flex-wrap: nowrap;
+  }
+  .slider-gallery > article {
+    flex: 1;
+    transition: all 0.5s ease-out;
+  }
+  .slider-gallery > article:hover {
+    flex: 1.2;
+  }
+  .slider-gallery > article:last-child {
+    display: block;
+  }
+}
+
+.slider-gallery > article img {
+  width: 100%;
+  height: auto;
+}
