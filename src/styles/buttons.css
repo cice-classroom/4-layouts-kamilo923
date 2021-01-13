@@ -1,0 +1,22 @@
+/* Style Button */
+
+.btn {
+  line-height: normal;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 2px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: var(--light);
+  border-color: var(--light);
+}
+
+.btn-primary {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: var(--light);
+}

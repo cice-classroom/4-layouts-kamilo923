@@ -250,3 +250,81 @@ a:hover {
 #last-block > article {
   text-align: center;
 }
+
+/*Footer*/
+#footer {
+  background-color: var(--darkest);
+  color: var(--white-bone);
+}
+
+.footer-block {
+  display: flex;
+}
+
+.footer-block > p {
+  flex: 0 60%;
+}
+
+.footer-block > .widgets {
+  display: flex;
+  flex: 0 40%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-block > .widgets > .widget {
+  padding: 0 15px;
+}
+
+.footer-block > .widgets > .widget:nth-child(2),
+.footer-block > .widgets > .widget:nth-child(3) {
+  display: none;
+}
+
+.footer-block > .widgets > .widget a {
+  color: var(--snow);
+}
+
+.footer-block > .widgets > .widget a:hover {
+  color: var(--main-color-dark);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-block > .widgets > .widget:nth-child(2),
+  .footer-block > .widgets > .widget:nth-child(3) {
+    display: block;
+  }
+}
+
+.copyright {
+  display: flex;
+  background-color: var(--main-color-dark);
+  padding: 9px 16px;
+}
+
+.copyright > p {
+  flex: 0 60%;
+  margin: 0;
+  padding: 8px 0px;
+}
+
+.copyright > ul {
+  padding: 0;
+  list-style: none;
+  flex: 0 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.copyright > ul > li {
+  padding: 8px 16px;
+}
+
+.copyright a {
+  color: var(--white-bone);
+}
+
+.copyright a:hover {
+  color: var(--medium-gray);
+}
