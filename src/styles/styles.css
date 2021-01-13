@@ -242,3 +242,11 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
+#last-block {
+  background-color: var(--snow);
+}
+
+#last-block > article {
+  text-align: center;
+}
